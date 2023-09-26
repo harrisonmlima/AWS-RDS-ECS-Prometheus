@@ -6,8 +6,6 @@
 ## harrisonlima/prometheus2.47-alterado
 ## harrisonlima/alertmanager0.26-alterado
 
-## Caso você queria 
-
 
 ## Before execute the terraform, remember that you must create ECR manually, because of the waiting to push the docker image to aws, so for cost reasons, i decided to leave it separate. When you have created you ECR and pushed your docker image, take the URI and change the string of name IMAGEM in the main.tf file, same thing for imagem-prometheus and imagem-alert-manager.
 
